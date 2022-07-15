@@ -20,10 +20,11 @@ body{
 .container{
     margin: 1rem 0;
     width: 30%;
-    border: solid 1px #fff;
+    /* border: solid 1px #fff; */
     padding: 5px;
     height: 70%;
     border-radius: 10px;
+    backdrop-filter: blur(5px);
 }
 form{
     display: flex;
@@ -42,4 +43,8 @@ input[type='button']{
     border-style: none;
     border-radius: 5px;
     margin: 10px ;
+}
+a{
+    color: #fff;
+    text-decoration: none;
 }
