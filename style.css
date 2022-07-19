@@ -14,7 +14,7 @@ h2{
     font-family: 'Montserrat', sans-serif;
     color: #F9F9F9;
     text-transform: uppercase;
-    border-top: #fff solid 1px;
+    /* border-top: #fff solid 1px; */
     border-right: #fff solid 1px;
     border-radius: 0 10px 0 0 ;
 
@@ -67,12 +67,12 @@ th{
 
 td {
     border: solid 1px #fff;
-    border-style: none solid solid none;
+    border-style: solid solid solid solid;
     padding: 20px;
     width: 80%;
 }
 
-tr:first-child td:first-child {
+/* tr:first-child td:first-child {
     border-top-left-radius: 10px;
 }
 
@@ -94,5 +94,5 @@ tr:first-child td {
 
 tr td:first-child {
     border-left-style: solid;
-}
+} */
 
